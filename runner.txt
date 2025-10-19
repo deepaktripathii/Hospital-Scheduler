@@ -1,0 +1,10 @@
+for backend->
+g++ -std=c++11 main.cpp fcfs.cpp sjf.cpp priority.cpp utils.cpp -o scheduler
+
+for server->
+cd server
+py server.py
+
+for front end->
+python -m http.server 8000
+http://localhost:8000
